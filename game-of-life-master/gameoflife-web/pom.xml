@@ -41,7 +41,7 @@
                             <cargo.remote.username>admin</cargo.remote.username>
                             <cargo.remote.password>admin</cargo.remote.password>
                             <cargo.remote.port>50447</cargo.remote.port>
-                            <cargo.glassfish.domain.name>/gameoflife-web</cargo.glassfish.domain.name>
+                            <cargo.glassfish.domain.name>/personal_domain</cargo.glassfish.domain.name>
                         </properties>
                     </configuration>
                     <deployables>
