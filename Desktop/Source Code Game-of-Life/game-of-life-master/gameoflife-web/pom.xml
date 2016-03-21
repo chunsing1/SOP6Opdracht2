@@ -14,6 +14,10 @@
     <properties>
         <jetty.port>9090</jetty.port>
         <jetty.stop.port>9999</jetty.stop.port>
+        <glassfish.asadmin.executable>C:/Users/Chunsing/Documents/glassfish SOP/glassfish/bin/asadmin</glassfish.asadmin.executable>
+        <glassfish.user>admin</glassfish.user>
+        <glassfish.password.file>C:/Users/Chunsing/Documents/glassfish SOP/glassfish/glassfish.password</glassfish.password.file>
+        <glassfish.remote.host>arte-epg-apipreprod.sdv.fr</glassfish.remote.host>
     </properties>
 
     <build>
