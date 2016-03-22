@@ -30,25 +30,6 @@
         </resources>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.1.1</version>
-                <configuration>
-                    <failonmissingwebxml>false</failonmissingwebxml>
-                    <filteringdeploymentdescriptors>true</filteringdeploymentdescriptors>
-                    <webresources>
-                        <resource>
-                            <directory>${basedir}/src/main/webapp/WEB-INF</directory>
-                            <filtering>true</filtering>
-                            <targetpath>WEB-INF</targetpath>
-                            <includes>
-                                <include>**/glassfish-web.xml</include>
-                            </includes>
-                        </resource>
-                    </webresources>
-                </configuration>
-            </plugin>
-            <plugin>
                 <groupId>org.codehaus.cargo</groupId>
                 <artifactId>cargo-maven2-plugin</artifactId>
                 <version>1.4.19</version>
